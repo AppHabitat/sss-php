@@ -33,7 +33,7 @@ class ScreenshotShark {
    * @param  array  $opts The screenshot options
    * @return string       The screenshot URL
    */
-  public function getScreenshotUrl($opts) {
+  public function buildUrl($opts) {
     $opts['token'] = $this->createHash($opts);
     $query = http_build_query($opts, NULL, '&');
     return self::API_URL . '?' . $query;
