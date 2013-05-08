@@ -1,15 +1,15 @@
-         ,
-       .';
-   .-'` .'
- ,`.-'-.`\
-; /     '-'
-| \       ,-,
-\  '-.__   )_`'._
- '.     ```      ``'--._
-.-' ,                   `'-.
- '-'`-._           ((   o   )
-  jgs   `'--....(`- ,__..--'
-                 '-'`
+           ,
+         .';
+     .-'` .'
+   ,`.-'-.`\
+  ; /     '-'
+  | \       ,-,
+  \  '-.__   )_`'._
+   '.     ```      ``'--._
+  .-' ,                   `'-.
+   '-'`-._           ((   o   )
+    jgs   `'--....(`- ,__..--'
+                   '-'`
 
 [ascii art cred](http://www.retrojunkie.com/asciiart/animals/sharks.htm)
 
@@ -28,7 +28,6 @@ $opts = array(
 );
 
 print $sss->buildUrl($opts);
-
 ```
 
 Check out [ScreenshotShark](http://www.screenshotshark.com) for your screenshotting needs.
