@@ -34,6 +34,13 @@ class ScreenshotShark {
    * @return string       The screenshot URL
    */
   public function buildUrl($opts) {
+    $opts = $opts + array(
+      'gravity'   => 'north',
+      'viewport'  => '1024x768',
+      'full'      => false,
+      'url'       => 'http://www.google.com/',
+      'op'        => 'r:200:120',
+    );
     $opts['token'] = $this->createHash($opts);
     $query = http_build_query($opts, NULL, '&');
     return self::API_URL . '?' . $query;
