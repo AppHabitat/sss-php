@@ -35,6 +35,7 @@ class ScreenshotShark {
    */
   public function buildUrl($opts) {
     $opts = $opts + array(
+      'time'      => time(),
       'gravity'   => 'north',
       'viewport'  => '1024x768',
       'full'      => false,
