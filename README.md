@@ -1,19 +1,6 @@
 # ScreenshotShark in PHP
 
-               ,
-             .';
-         .-'` .'
-       ,`.-'-.`\
-      ; /     '-'
-      | \       ,-,
-      \  '-.__   )_`'._
-       '.     ```      ``'--._
-      .-' ,                   `'-.
-       '-'`-._           ((   o   )
-        jgs   `'--....(`- ,__..--'
-                       '-'`
-
-[ascii art cred](http://www.retrojunkie.com/asciiart/animals/sharks.htm)
+![Screenshot Shark](http://screenshotshark.com/images/logo.png)
 
 This is the PHP library for creating screenshot URLs using the ScreenshotShark service.
 
